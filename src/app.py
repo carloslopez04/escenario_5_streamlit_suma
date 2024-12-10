@@ -5,5 +5,5 @@ st.write("Ingrese los valores a sumar")
 a = st.number_input("Primer número")
 b = st.number_input("Segundo número")
 resultado = st.write(f"El resultado de la suma es: {a + b}")
-if resultado:
+if st.button("Calcular"):
     st.write("El resultado es: ", resultado)
